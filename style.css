@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0C2D48;
+    color: #fff;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.container{
+    width: 800px;
+    height: 700px;
+    background-color: #031018;
+    border-radius: 20px;
+    position: relative;
+    padding-top: 100px;
+}
+.container li{
+    list-style-type: none;
+    display: inline-block;
+}
+.container p{
+    display: inline-block;
+}
+
+
+.textHead{
+    font-size: 50px;
+    display: block;
+    text-shadow: 0 -1px 2px red , 0 -2px 2px yellow;
+}
+
+.insertamount{
+    color: #145DA0;
+    font-weight: bold;
+    margin: 20px;
+}
+.display{
+    color: #0C2D48;
+}
+.moneyAmount{
+    height: 20px;
+    font-size: large;
+}
+.result{
+    font-size: 25px;
+    position: absolute;
+}
+form{
+    position: absolute;
+}
+
+[class ^= "col-" ]{
+    float: right;
+}
+
+.row::after{
+	content:"";
+	clear:both;
+	
+}
+@media screen and (max-width:1200px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+@media screen and (max-width:992px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+@media screen and (max-width:765px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+@media only screen and (max-width: 600px) {
+ 
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+@media screen and (max-width:765px) {
+    .container{
+        width: 500px;
+    }
+}
